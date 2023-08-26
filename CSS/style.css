@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+
+img{
+    cursor: pointer;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;   
+}
+
+            /* NAV BAR */
+
+nav{
+    padding: 0 29px;
+    justify-content: space-between;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+            /* NAV-FIRST */
+
+.nav-first .menu-icon{
+    height: 68px;
+    padding-bottom: 17px;
+    padding-top: 27px;
+}
+
+.nav-first .logo{
+    width: 132px;
+    padding-left: 24px;
+}
+
+.nav-first sup{
+    padding-bottom: 16px;
+}
+
+        /* NAV-MIDDLE */
+
+.nav-middle .search-box{
+    border: 1px solid #ccc;
+    margin-right: 8px;
+    padding: 6px 6px;
+    border-radius: 28px 28px;
+}
+
+.nav-middle .search-box input{
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+
+.nav-middle .search-box img{
+    width: 32px;
+}
+
+.nav-middle .mic-icon{
+    height: 36px;
+    padding-top: 1px;
+    border-radius: 30px 30px;
+    border: 1px solid;
+    margin-left: 5px;
+    width: 11%;
+    background-color: #cccccc59;
+}
+
+            /* NAV-END */
+
+.nav-end img{
+    width: 10%;
+    margin-right: -59px;
+    margin-left: 91px;
+}
+
+.nav-end .user-icon{
+    width: 16%;
+}
+
+            /* SIDE BAR */
+
+.side-bar{
+    width: 15%;
+    height: 100vh;
+    background-color: #fff;
+    padding-left: 27px;
+    padding-top: 80px;
+    position: fixed;
+    top: 0;
+}
+
+.side-bar .shortcut-links a{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    width: fit-content;
+}
+
+.side-bar .shortcut-links a img{
+    width: 25px;
+    margin-right: 20px;
+}
+
+.side-bar hr{
+    height: 1px;
+    border: 0;
+    background-color: #ccc;
+    width: 82%;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
